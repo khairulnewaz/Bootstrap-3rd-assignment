@@ -1,0 +1,323 @@
+
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+ body{
+    font-family: 'Roboto', sans-serif;
+ }
+
+ 
+/*   
+ 
+
+
+       == Index==
+       1. Fusce at 
+       2. Facilisis
+       3. Ante donec 
+       4. Blandit rhoncus 
+       5. Placerat
+ */
+
+
+                               /*  Global CSS */
+
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+                                     /* Header */
+
+header{
+
+}
+
+.nav-head{
+
+    background-color: #edeff1;
+    padding: 30px 0px;
+
+
+}
+
+.nav-link{
+    color:#31353e;
+    margin: 0px 10px;
+}
+
+.nav-link.js-scroll-trigger.active{
+
+    background-color: #dd4b2b;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+          
+                                /* Hero */
+
+.hero{
+
+    width: 100%;
+    float: left;
+    padding: 25px 0px ;
+    background: url(../img/hero.png) no-repeat;
+    background-size: cover;
+    background-position:center top;
+}
+
+.hero-main{
+    padding-top: 400px;
+    padding-bottom: 30px;
+
+}
+
+.hero-main h2{
+
+    color: white;
+    text-align: center;
+
+}
+
+.hero-main h3{
+
+    color: white;
+    text-align: center;
+    
+}
+
+.hero-btn{
+
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+    border: none;
+    margin-top: ;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color:#612316;
+}
+
+
+                                    /* facilisis */
+
+.ournews{
+    width: 100%;
+    float: left;
+    background-color: #EEEFF1;
+    margin: 12px;
+    padding: 4px;
+  
+    
+}
+
+.ournews h1{
+    text-align: center;
+    margin: 59px 0px 65px 0px;
+  
+}
+
+.ournews h4{
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+.ournews p{
+    text-align: center;
+    padding: 10px;
+}
+
+.ournews-btn{
+    text-align: center;
+    margin: 8px 6px 0px 0px auto;
+    margin: 0px 116px;
+    padding: 0px 16px;
+    border-radius: 7px;
+    background: white;
+}
+
+                                    /* News letter */
+
+.newsletter{
+
+    width: 100%;
+    float: left;
+    background: url(../img/Footer.png) no-repeat ;
+    background-size: cover;
+    padding: 50px 0px;
+    opacity: .8;
+
+}
+
+.newsletter h2{
+    text-align: center;
+    color: white;
+}
+
+.contact{
+    text-align: center;
+}
+
+.form-control{
+    background: transparent;
+    border: 30px;
+    position: relative;
+    opacity: .6;
+
+}
+.submit-btn{
+
+  
+    background-color:whitesmoke;
+    border: none;
+    margin-top: ;
+    padding: 7px 20px;
+    border-radius: 20px;
+  
+    color:#612316;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+                                   /*  Sign up */
+
+.signup{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+    background-color: white;
+}
+
+.signup2 h2{
+
+}
+
+.signup-btn1{
+    margin: 0 auto;
+    display: block;
+    background-color:#dd4b2b;
+    border: none;
+    float: left;
+   
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color:white;
+
+}
+.signup-btn2{
+    margin: 0 auto;
+    display: block;
+    background-color:#4b4e73;
+    border: none;
+    float: left;
+  
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color:white;
+    
+}
+
+.signup1 h2 {
+    margin: 22px 0px;
+}
+
+.signup2 h2 {
+    margin: 22px 0px;
+}
+
+                                    /* Orange footer */
+
+.orange-footer{
+
+    width: 100%;
+    float: left;
+    background:#d75d0e ;
+    padding: 25px 0px ;
+}
+
+
+.orange-footer h4{
+
+    color: white;
+    font-size: 14px;
+}
+
+                             /*  Footer */
+
+footer{
+    background: url(../img/Footer.png) no-repeat;
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    margin: 87px 0px;
+}
+
+@media only screen and (max-width: 768px)  {
+
+    .hero-btn{
+        background-color: white;
+        border: none;
+        margin: 6px 0px 2px 107px;
+           
+    }
+    
+
+    .hero-main h2{
+
+        color: white;
+        text-align: left;
+    
+    }
+    
+    .hero-main h3{
+    
+        color: white;
+        text-align: left;
+        
+    }
+  
+    .ournews h1{
+        text-align: left;
+        margin: 59px 0px 65px 0px;
+      
+    }
+
+    .ournews h4{
+        text-align: left;
+        padding: 10px;
+    
+    }
+    
+    
+    .ournews p{
+        text-align: left;
+        padding: 10px;
+    }
+    
+    .ournews-btn{
+        text-align: center;
+        margin: 8px 6px 0px 0px auto;
+        margin: 0px auto;
+        padding: 0px 16px;;
+        border-radius: 7px;
+        background: white;
+    }
+    
+}
